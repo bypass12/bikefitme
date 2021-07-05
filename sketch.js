@@ -20,15 +20,7 @@ function preload() {
 function setup() {
   createCanvas(640, 520);
   // Create the video
-  
-
   video = createCapture(VIDEO);
-  video: {
-      facingMode: {
-        exact: "environment"
-      }
-    }
-  
   video.hide();
   // STEP 2: Start classifying
   classifyVideo();
